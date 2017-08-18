@@ -1,0 +1,15 @@
+.page-nav {
+  a, p {
+    display: inline-block;
+    margin: 10px;
+    color: $dark-gray;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+  }
+}
+
+.page-nav a:hover {
+  color: $teal-green;
+  font-weight: bold;
+}

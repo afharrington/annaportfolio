@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Anna Harrington | Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/332bc1d84f.js"></script>
+  </head>
+  <body>
+    <nav class="top-nav">
+      <div class="nav-links">
+        <a href="#" data-scroll="home"><i class="fa fa-home" aria-hidden="true"></i></a>
+        <a href="#about" data-scroll="about">About</a>
+        <a href="#skills" data-scroll="skills">Skills</a>
+        <a href="#projects" data-scroll="projects">Projects</a>
+      </div>
+    </nav>
+    <section id="main" class="page" data-anchor="home">
+      <div class="intro-summary">
+        <h1 className="greeting">Hello! I'm Anna Harrington.<h1>
+        <h1>I'm a web developer based in New York City. I combine my love of coding and my background in consumer research to create fun and intuitive user experiences.</h1>
+      </div>
+      <div class="social-links">
+        <a class="social" href="mailto:hi@afharrington.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a class="social" href="https://github.com/afharrington" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a class="social" href="https://www.linkedin.com/in/afkharrington/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="page" data-anchor="about">
+      <div class="about-container">
+        <div class="intro">
+          <div class="iam">
+            <h2>I enjoy work that is . . .</h2>
+          </div>
+          <div class="attributes">
+            <h2 class="att" id="technical">Technical</h2>
+            <h2 class="att" id="creative">Creative</h2>
+            <h2 class="att" id="strategic">Strategic</h2>
+            <h2 class="att" id="teamoriented">Collaborative</h2>
+          </div>
+        </div>
+        <div class="background">
+          <p>I came to web development from a career in market research consulting, which included the UX research that initially sparked my interest in code. From my previous work, I bring with me extensive experience in project management and team collaboration, an eye for usability, and a sensitivity to broader business objectives.</p>
+          <p>To accelerate my learning in programming, I recently attended the <a href="https://www.recurse.com/" target="_blank">Recurse Center</a>, a three-month self-directed retreat in New York City which brings programmers together for knowledge sharing, pair programming, technical talks, and social events.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="page" data-anchor="skills">
+      <div class="skills-container">
+        <div>
+          <h3>I work with</h3>
+          <div class="tech-items">
+            <div class="tech-item">
+              <img src="/img/techicons/javascript.png" alt="javascript icon"/>
+              <p>JavaScript (ES6)</p>
+            </div>
+            <div class="tech-item">
+              <img src="/img/techicons/html5.png" alt="html icon"/>
+              <p>HTML</p>
+            </div>
+            <div class="tech-item">
+              <img src="/img/techicons/css3.png" alt="css icon"/>
+              <p>CSS</p>
+            </div>
+            <div class="tech-item">
+              <img src="/img/techicons/sass.png" alt="sass icon"/>
+              <p>SASS</p>
+            </div>
+            <div class="tech-item">
+              <img src="/img/techicons/bootstrap.png" alt="bootstrap icon"/>
+              <p>Bootstrap</p>
+            </div>
+            <div class="tech-item">
+              <img src="/img/techicons/react.png" alt="react icon"/>
+              <p>React</p>
+            </div>
+            <div class="tech-item">
+              <img src="/img/techicons/redux.png" alt="redux icon"/>
+              <p>Redux</p>
+            </div>
+            <div class="tech-item">
+              <img src="/img/techicons/nodejs.png" alt="node icon"/>
+              <p>Node</p>
+            </div>
+            <div class="tech-item">
+              <img src="/img/techicons/mongodb.png" alt="mongo icon"/>
+              <p>MongoDB</p>
+            </div>
+          </div>
+        </div>
+        <div class="tools">
+          <h3>with tools like</h3>
+          <div class="tech-items">
+            <div class="tech-item">
+              <img src="/img/techicons/atom.png" alt="atom icon"/>
+              <p>Atom</p>
+            </div>
+            <div class="tech-item">
+              <img src="/img/techicons/git.png" alt="git icon"/>
+              <p>Git</p>
+            </div>
+            <div class="tech-item">
+              <img src="/img/techicons/webpack.png" alt="webpack icon"/>
+              <p>Webpack</p>
+            </div>
+          </div>
+        </div>
+        <div class="care">
+          <h3>and care about</h3>
+          <div class="care-items">
+            <div class="care-item">
+              <p>Responsive design</p>
+            </div>
+            <div class="care-item">
+              <p>Cross-browser compatibility</p>
+            </div>
+            <div class="care-item">
+              <p>Information architecture</p>
+            </div>
+            <div class="care-item">
+              <p>Maintainability</p>
+            </div>
+            <div class="care-item">
+              <p>Scalability</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="page" data-anchor="projects">
+      <div class="projects-container">
+
+        <article class="project timetiles">
+          <h3 class="project-heading">TimeTiles Web App</h3>
+          <div class="project-images">
+            <img src="/img/timetiles-1.png"/>
+            <img src="/img/timetiles-2.png"/>
+
+          </div>
+          <div class="project-description">
+            <div class="techstack">
+              <h3>Technologies:</h3>
+              <p>JavaScript, React, Redux, Node, MongoDB</p>
+            </div>
+            <div class="project-about">
+              <p>TimeTiles is a way to log your activities and time spent toward different goals, and then view at a glance what you've been up to. Tiles lighten or darken in color according to how recently you've worked toward a goal and the total time you've spent.</p>
+            </div>
+            <div class="project-links">
+              <a class="try-it-button" href="https://timetiles.herokuapp.com" target="_blank">Try it</a>
+              <div class="login-info">
+                <p>Email: test@email.com</p>
+                <p>Password: tiles</p>
+              </div>
+            </div>
+            <div class="gh-links">
+              <a class="gh-link front-end" href="https://github.com/afharrington/timetiles" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Front End</a>
+              <a class="gh-link api" href="https://github.com/afharrington/timetilesapi" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> API</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project lwportfolio">
+          <h3 class="project-heading">Design Portfolio Website</h3>
+          <div class="project-details">
+            <div class="project-images">
+              <img src="/img/lwportfolio-1.png"/>
+              <img src="/img/lwportfolio-2.png"/>
+              <div class="gh-links">
+                <a class="gh-link" href="http://conceptsociety.com" target="_blank">Visit the site</a>
+                <a class="gh-link" href="https://github.com/afharrington/lwportfolio" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> View code</a>
+              </div>
+            </div>
+            <div class="project-description">
+              <div class="techstack">
+                <h3>Technologies:</h3>
+                <p>JavaScript, HTML, CSS</p>
+              </div>
+              <p>Lauren is a design strategist who was seeking a simple, modern, and responsive site to showcase her work for those interested in contacting her for teaching and conference speaking engagements.</p>
+              <div class="testimonial">
+                <p><i class="fa fa-quote-left" aria-hidden="true"></i>Anna was an absolute pleasure to work with - highly responsive, collaborative, and thoughtful. She asked all the right questions and helped me articulate what I wanted out of a portfolio website in a way that other collaborators haven't.</p>
+                <p>In a very short amount of time, she created a lovely, simple portfolio for me from scratch - exactly what I was looking for. I'm impressed by her work and the way she made this project so easy and seamless.<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                <p class="attribution">Lauren Wong<p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="staytuned">
+        <p>Stay tuned! I'll be adding more projects soon.</p>
+        <p>The code for this site can be found <a href="https://github.com/afharrington/portfoliosite" target="_blank">here</a>.</p>
+      </div>
+    </section>
+    <script src="bundle.js"></script>
+  </body>
+</html>
